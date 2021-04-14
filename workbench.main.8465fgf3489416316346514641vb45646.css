@@ -1,0 +1,477 @@
+.unknown {
+  background-color: #2f3241;
+  color: #74b1be;
+  border-bottom: 1px solid #1a1b23;
+  background-color: #1a1b23;
+  color: #9feaf9;
+  color: #74b1be;
+}
+
+.nova-header {
+  background-color: #2f3241;
+  color: #74b1be;
+}
+
+.nova-header {
+  top: 0;
+  left: 0;
+}
+
+.nova-header {
+  padding: 24px 16px;
+}
+
+@media (max-width: 10000px) {
+  .nova-mobile-header {
+    display: none;
+  }
+  .nova-mobile-nav-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .nova-header {
+    display: none;
+  }
+  .nova-announcement {
+    display: none;
+  }
+  .nova-jumbotron {
+    display: none;
+  }
+  .nova-github-row {
+    display: none;
+  }
+  .nova-mobile-header {
+    display: block;
+  }
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-logo {
+  margin-right: 30px;
+  font-size: 21px;
+  color: #74b1be;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-logo .nova-header-logo-svg {
+  height: 42px;
+  width: 42px;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-logo .nova-header-logo-svg {
+  margin-right: 8px;
+  margin-top: -4px;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-logo .nova-header-logo-title {
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-logo:hover .nova-header-logo-title {
+  color: #65e3ff;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-search-form .nova-header-search-form-content .nova-header-search-form-input-cont .nova-header-search-input {
+  font-weight: 500;
+  height: 50px;
+  width: 300px;
+  border-radius: 50px;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-search-form .nova-header-search-form-content .nova-header-search-form-input-cont .nova-header-search-input {
+  background-color: #2f3241;
+  color: #74b1be;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-search-form .nova-header-search-form-content .nova-header-search-form-input-cont .nova-header-search-input {
+  -webkit-padding-start: 48px;
+          padding-inline-start: 48px;
+  -webkit-padding-end: 20px;
+          padding-inline-end: 20px;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-search-form .nova-header-search-form-content .nova-header-search-form-button-cont {
+  margin-left: 2.6px;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-search-form .nova-header-search-form-content .nova-header-search-form-button-cont .nova-header-search-button {
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-search-form .nova-header-search-form-content .nova-header-search-form-button-cont .nova-header-search-button .nova-header-search-button-svg {
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  fill: #837f7f;
+}
+
+.nova-header .nova-header-content .nova-left-header .nova-header-search-form .nova-header-search-form-content .nova-header-search-form-button-cont .nova-header-search-button:hover .nova-header-search-button-svg {
+  fill: #00aeff;
+}
+
+.nova-header .nova-header-content .nova-right-header .nova-header-nav {
+  margin-right: 30px;
+}
+
+.nova-header .nova-header-content .nova-right-header .nova-header-nav .nova-nav-item {
+  color: #74b1be;
+  font-weight: 500;
+  padding: 2px 8px;
+  display: block;
+}
+
+.nova-header .nova-header-content .nova-right-header .nova-header-nav .nova-nav-item .nova-nav-item-borders {
+  height: 2px;
+  background-color: #2f3241;
+}
+
+.nova-header .nova-header-content .nova-right-header .nova-header-nav .nova-nav-item:hover {
+  color: #65e3ff;
+}
+
+.nova-header .nova-header-content .nova-right-header .nova-header-nav .nova-nav-item:hover .nova-nav-item-borders {
+  background-color: #65e3ff;
+}
+
+.nova-header .nova-header-content .nova-right-header .nova-header-user .nova-user-menu-btn {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nova-header .nova-header-content .nova-right-header .nova-header-user .nova-user-menu-btn svg {
+  height: 28px;
+  width: 28px;
+  fill: #74b1be;
+}
+
+.nova-header .nova-header-content .nova-right-header .nova-header-user .nova-user-menu-btn svg:hover {
+  fill: #65e3ff;
+}
+
+.nova-header .nova-header-content .nova-right-header .nova-header-user .nova-header-user-link .nova-user-svg {
+  height: 28px;
+  width: 28px;
+  fill: #74b1be;
+}
+
+.nova-header .nova-header-content .nova-right-header .nova-header-user .nova-header-user-link .nova-user-svg:hover {
+  fill: #65e3ff;
+}
+
+.nova-mobile-header {
+  background-color: #2f3241;
+  color: #74b1be;
+}
+
+.nova-mobile-header {
+  top: 0;
+  left: 0;
+}
+
+.nova-mobile-header {
+  padding: 14px 14px;
+}
+
+.nova-mobile-header .mobile-header-content .mb-logo .mb-logo-svg-cont {
+  height: 42px;
+  width: 42px;
+}
+
+.nova-mobile-header .mobile-header-content .mb-logo .mb-logo-svg-cont {
+  background-image: url("/images/svg/Pancilwater-logo.svg");
+  border-radius: 50px;
+}
+
+.nova-mobile-header .mobile-header-content .mb-search-form .mb-search-form-content .mb-search-input-cont .mb-search-input {
+  font-weight: 500;
+  height: 50px;
+  width: 250px;
+  border-radius: 50px;
+}
+
+.nova-mobile-header .mobile-header-content .mb-search-form .mb-search-form-content .mb-search-input-cont .mb-search-input {
+  background-color: #2f3241;
+  color: #74b1be;
+}
+
+.nova-mobile-header .mobile-header-content .mb-search-form .mb-search-form-content .mb-search-input-cont .mb-search-input {
+  -webkit-padding-start: 50px;
+          padding-inline-start: 50px;
+  -webkit-padding-end: 20px;
+          padding-inline-end: 20px;
+}
+
+.nova-mobile-header .mobile-header-content .mb-search-form .mb-search-form-content .mb-search-btn-cont {
+  margin-top: -45px;
+  margin-left: 5px;
+}
+
+.nova-mobile-header .mobile-header-content .mb-search-form .mb-search-form-content .mb-search-btn-cont .mb-search-submit-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.nova-mobile-header .mobile-header-content .mb-search-form .mb-search-form-content .mb-search-btn-cont .mb-search-submit-btn .nova-header-search-button-svg {
+  height: 24px;
+  width: 24px;
+  fill: #837f7f;
+}
+
+.nova-mobile-header .mobile-header-content .mb-menu-btn {
+  border: 2px solid #837f7f;
+  height: 41px;
+  width: 41px;
+  border-radius: 50px;
+}
+
+.nova-mobile-header .mobile-header-content .mb-menu-btn .mb-menu-btn-svg {
+  height: 28px;
+  width: 28px;
+  fill: #46c6d6;
+}
+
+.nova-header-search-form-button-cont {
+  margin-left: 5px;
+}
+
+.nova-header-search-form-button-cont .nova-header-search-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.nova-header-search-form-button-cont .nova-header-search-button .nova-header-search-button-svg {
+  height: 24px;
+  width: 24px;
+  fill: #837f7f;
+}
+
+.nova-header-search-form-button-cont .nova-header-search-button:hover .nova-header-search-button-svg {
+  fill: #00aeff;
+}
+
+.nova-announcement {
+  padding: 32px 16px;
+}
+
+.nova-announcement {
+  background-color: #1a1b23;
+  color: #74b1be;
+}
+
+.nova-announcement .nova-announcement-content .nova-announc-vs-box-cont {
+  background-color: #2f3241;
+  border-radius: 7px;
+  margin-right: 30px;
+}
+
+.nova-announcement .nova-announcement-content .nova-announc-vs-box-cont {
+  height: 100px;
+  width: 100px;
+}
+
+.nova-announcement .nova-announcement-content .nova-announc-vs-box-cont svg {
+  height: 60px;
+  width: 60px;
+}
+
+.nova-announcement .nova-announcement-content .nova-announc-vs-txt-cont .nova-announc-vs-txt-first-spn {
+  color: #74b1be;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.nova-announcement .nova-announcement-content .nova-announc-vs-txt-cont .nova-announc-vs-txt-first-spn .nova-announc-vs-txt-first-spn-link {
+  color: #74b1be;
+  text-decoration: underline;
+}
+
+.nova-announcement .nova-announcement-content .nova-announc-vs-txt-cont .nova-announc-vs-txt-first-spn .nova-announc-vs-txt-first-spn-link:hover {
+  color: #65e3ff;
+}
+
+.nova-announcement .nova-announcement-content .nova-announc-vs-txt-cont .nova-announc-vs-txt-first-spn p {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-vs-downl-link {
+  margin-right: 30px;
+  border: 2px solid #74b1be;
+  border-radius: 6px;
+  color: #74b1be;
+  font-weight: 500;
+  padding: 14px 21px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-vs-downl-link span span svg {
+  margin-top: -9px;
+  margin-right: 8px;
+  height: 24px;
+  width: 24px;
+  fill: #74b1be;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-vs-downl-link:hover {
+  color: #65e3ff;
+  border-color: #65e3ff;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-vs-downl-link:hover span span svg {
+  fill: #65e3ff;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-vs-learn-link {
+  color: #74b1be;
+  padding: 14px 21px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-vs-learn-link span span {
+  margin-top: 5px !important;
+  margin-right: 8px;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-vs-learn-link span span svg {
+  height: 24px;
+  width: 24px;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-vs-learn-link:hover {
+  color: #65e3ff;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-close-btn {
+  background-color: #1a1b23;
+  top: -90px;
+  right: -5px;
+  height: 36px;
+  width: 36px;
+  border-radius: 50px;
+  border-bottom: 2px solid #2f3241;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-close-btn svg {
+  height: 19px;
+  width: 19px;
+  fill: #74b1be;
+}
+
+.nova-announcement .nova-announc-vs-downl-cont .nova-announc-close-btn:hover svg {
+  fill: #65e3ff;
+}
+
+.nova-vs-reader {
+  background-color: #1a1b23;
+  color: #74b1be;
+  padding: 20px 0;
+}
+
+.nova-vs-reader span a {
+  text-decoration: underline;
+  color: #74b1be;
+  font-weight: 500;
+}
+
+.nova-jumbotron {
+  background-color: #2b2e3b;
+  color: #74b1be;
+}
+
+.nova-jumbotron {
+  background-image: url("/images/svg/home-scene-winter.svg");
+}
+
+.nova-jumbotron .nova-jumbotron-content {
+  padding-top: 62px;
+  padding-bottom: 120px;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.nova-jumbotron .nova-jumbotron-content .nova-jumbotron-hero {
+  margin-bottom: 36px;
+}
+
+.nova-jumbotron .nova-jumbotron-content .nova-jumbotron-hero .nova-jumbotron-logo .nova-jumbotron-logo-svg {
+  height: 360px;
+  width: 360px;
+}
+
+.nova-jumbotron .nova-jumbotron-content .nova-jumbotron-hero-txt {
+  margin-bottom: 24px;
+}
+
+.nova-jumbotron .nova-jumbotron-content .nova-jumbotron-hero-txt .nova-jumbotron-hero-vs-line {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.nova-github-row {
+  background-color: white;
+  padding: 22px 0;
+}
+
+.nova-github-row .nova-github-row-content {
+  margin-bottom: 12px;
+}
+
+.nova-github-row .nova-github-row-content span {
+  font-weight: 500;
+}
+
+.nova-mobile-nav-menu {
+  padding: 16px 16px;
+}
+
+.nova-mobile-nav-menu {
+  background-color: #1a1b23;
+  color: #74b1be;
+}
+
+.nova-mobile-nav-menu .mobile-nav-menu-content .mb-sign-cont {
+  background-color: #1a1b23;
+  color: #74b1be;
+  margin-bottom: 6px !important;
+}
+
+.nova-mobile-nav-menu .mobile-nav-menu-content .mb-sign-cont .mb-sign {
+  color: #65e3ff;
+}
+
+.nova-mobile-nav-menu .mobile-nav-menu-content .mb-sign-cont .mb-sign span {
+  height: 30px;
+  width: 100%;
+}
+
+.nova-mobile-nav-menu .mobile-nav-menu-content .mb-nav .mb-nav-item-cont {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nova-mobile-nav-menu .mobile-nav-menu-content .mb-nav .mb-nav-item-cont .mb-nav-item {
+  color: #74b1be;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nova-mobile-nav-menu .mobile-nav-menu-content .mb-nav .mb-nav-item-cont .mb-nav-item div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  width: 100%;
+}
+/*# sourceMappingURL=workbench.main.8465fgf3489416316346514641vb45646.css.map */
